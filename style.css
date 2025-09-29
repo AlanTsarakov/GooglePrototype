@@ -1,0 +1,50 @@
+nav{
+    display: flex;
+    justify-content: flex-end; 
+}
+
+nav p{
+    display: inline-block;
+    padding: 10px 15px;
+}
+
+.google-search {
+    display: flex;
+    width: 500px;
+    margin: 50px auto;
+}
+
+.search-input {
+    flex: 1;
+    padding: 12px 20px;
+    border: 2px solid #dfe1e5;
+    border-radius: 24px 0 0 24px;
+    font-size: 16px;
+    outline: none;
+}
+
+.search-input:focus {
+    border-color: #4285f4;
+}
+
+.search-btn {
+    padding: 12px 24px;
+    background: #4285f4;
+    color: white;
+    border: none;
+    border-radius: 0 24px 24px 0;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.search-btn:hover {
+    background: #3367d6;
+}
+
+
+
+img {
+    display: block;
+    height: 200;
+    margin: 0 auto;
+}
