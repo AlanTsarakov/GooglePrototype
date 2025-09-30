@@ -1,27 +1,72 @@
-<html>
+<!DOCTYPE html>
+<html lang = "ru">
     <head>
-        <meta charset="UTF-8">
-        <link rel="stylesheet" href="style.css">
+        <meta charset = "utf-8">
+        <title>Гугл</title>
+        <link rel = "stylesheet" href = "style.css">
     </head>
     <body>
         <header>
-            <nav>
-                <p>Почта</p>
-                <p>Картинки</p>
-            </nav>
+            <div class = "headerItems">
+                <nav>
+                    <a href>Почта </a>
+                    <a href>Картинки</a>
+                    <a href id = "more-imgRef">
+                        <img src = "Images/dots.png" width = 24 height = 24 id = "more-img">
+                    </a>
+                    <a href>
+                        <img src = "Images/account-logo.png" id = "account">
+                    </a>
+                </nav>
+            </div>
         </header>
         <main>
-            <div class="logo">
-                <img src="logo.png">
+            <div class = "google">
+                <img src = "Images/Google-logo.png"  id = googleimg >
             </div>
-            
-            <div class="google-search">
-                <input type="text" class="search-input" placeholder="Введите запрос...">
-                <button class="search-btn">Поиск</button>
-            </div>
+            <form>
+                <section class = "search">
+                    <img src = "Images/magnify-logo.png" width = 15 height = 21 id = "magnify">
+                    <input type = "text">
+                    <a href>
+                        <img src = "Images/keyboard-logo.png" width = 20 height = 14 id = "keyboard">
+                    </a>
+                    <a href>
+                        <img src = "Images/mic-logo.png" width = 24 height = 24 id = "mic">
+                    </a>
+                    <a href>
+                        <img src = "Images/lens-logo.png" width = 18 height = 18 id = "lens-png">
+                    </a>
+                </section>
+            </form>
+            <section class = "buttons">
+                <nav>
+                    <div class = "button">
+                        <a href>Поиск в Google</a>
+                    </div>
+                    <div class = "button">
+                        <a href>Мне повезёт!</a>
+                    </div4>
+                </nav>
+            </section>
+            <hr id = "empty">
         </main>
         <footer>
-            
+            <p>Россия</p>
+            <hr id = "divider">
+            <nav >
+                <div class = "left">
+                    <a href>Всё о Google</a>
+                    <a href>Реклама</a>
+                    <a href>Для бизнеса</a>
+                    <a href> Как работает Google Поиск </a>
+                </div>
+                <div class = "right">
+                    <a href>Конфиденциальность</a>
+                    <a href>Условия</a>
+                    <a href>Настройки</a>
+                </div>
+            </nav>
         </footer>
     </body>
-</html>
+    
